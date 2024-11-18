@@ -1,0 +1,322 @@
+[
+    {
+        "name": "Plain Naan",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6659/a43d03e0_SMALL.jpg"
+    },
+    {
+        "name": "Garlic Naan",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6660/be3a5446_SMALL.jpg"
+    },
+    {
+        "name": "Butter Chicken",
+        "description": "Boneless chicken cooked in butter with spices, cream and almonds.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6678/f755ee31_SMALL.jpg"
+    },
+    {
+        "name": "Butter Naan",
+        "description": "Our softest freshly baked bread.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/7071/00636b39_SMALL.jpg"
+    },
+    {
+        "name": "Vegetable Samosa",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6658/6972eb70_SMALL.jpg"
+    },
+    {
+        "name": "Chicken Tikka Masala",
+        "description": "Chicken cooked with fenugreek dust, tomatoes, garam masala, ginger, garlic.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6684/803a9fd3_SMALL.jpg"
+    },
+    {
+        "name": "Chicken Curry",
+        "description": "Boneless chicken, onions, garlic, ginger, tomatoes and curry spices.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6680/8e473d55_SMALL.jpg"
+    },
+    {
+        "name": "Vegetable Pakora",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6653/6c126580_SMALL.jpg"
+    },
+    {
+        "name": "Onion Pakora",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6654/4d79b2d0_SMALL.jpg"
+    },
+    {
+        "name": "Chicken Pakora",
+        "description": "",
+        "image_url": "No image"
+    },
+    {
+        "name": "Egg Pakora",
+        "description": "",
+        "image_url": "No image"
+    },
+    {
+        "name": "Paneer Pakora",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6657/e5450d5b_SMALL.jpg"
+    },
+    {
+        "name": "Vegetable Samosa",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6658/6972eb70_SMALL.jpg"
+    },
+    {
+        "name": "Plain Naan",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6659/a43d03e0_SMALL.jpg"
+    },
+    {
+        "name": "Garlic Naan",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6660/be3a5446_SMALL.jpg"
+    },
+    {
+        "name": "Roti",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6661/e9a4502a_SMALL.jpg"
+    },
+    {
+        "name": "Onion Kulcha",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6662/9c574aee_SMALL.jpg"
+    },
+    {
+        "name": "Butter Naan",
+        "description": "Our softest freshly baked bread.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/7071/00636b39_SMALL.jpg"
+    },
+    {
+        "name": "Aaloo Gobi",
+        "description": "Fresh cauliflower and potato sauteed in mild spices with tomato, onion, ginger, garlic.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6663/02f18efd_SMALL.jpg"
+    },
+    {
+        "name": "Channa Masala",
+        "description": "Gently cooked chickpeas sauteed in a curry with blend of herbs & spices.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6664/f87aa795_SMALL.jpg"
+    },
+    {
+        "name": "Chhole Bhatura",
+        "description": "Channa masala with deep-fried bread.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6665/fcb3b493_SMALL.jpg"
+    },
+    {
+        "name": "Daal Makhni",
+        "description": "Black lentils, tomato, ginger, garlic, fenugreek dust.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6666/7b735541_SMALL.jpg"
+    },
+    {
+        "name": "Dal Tadka",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6667/43e78f57_SMALL.jpg"
+    },
+    {
+        "name": "Kadhai Paneer",
+        "description": "Cottage cheese, spiced onions, green peppers, tomatoes and fresh coriander.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6668/40384c47_SMALL.jpg"
+    },
+    {
+        "name": "Malai Kofta",
+        "description": "Cheese balls, coconut milk, nuts, tomatoes.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6669/583bbb3c_SMALL.jpg"
+    },
+    {
+        "name": "Matter Paneer",
+        "description": "Green peas, garlic, ginger and chilies, cooked in gravy.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6670/9f3a160c_SMALL.jpg"
+    },
+    {
+        "name": "Paneer Biryani",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6671/dab2d8c0_SMALL.jpg"
+    },
+    {
+        "name": "Paneer Tikka Masala",
+        "description": "Fresh Indian paneer simmered in rich tomato gravy.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6672/5bbab229_SMALL.jpg"
+    },
+    {
+        "name": "Saag Paneer",
+        "description": "Cottage cheese, garlic, shallots, spinach.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6673/32583d1a_SMALL.jpg"
+    },
+    {
+        "name": "Seasonal Vegetable Curry",
+        "description": "Seasonal vegetables cooked in South Indian style, fennel coconut, curry leaves, poppy seeds.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6674/67bdb4d8_SMALL.jpg"
+    },
+    {
+        "name": "Vegetable Biryani",
+        "description": "Seasoned vegetables, aromatic rice pilaf, served with vegetable, raita.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6675/b3901f8f_SMALL.jpg"
+    },
+    {
+        "name": "Vegetable Korma",
+        "description": "Seasonal vegetables cooked in creamy sauce with almonds and coconut.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6676/ca154fb1_SMALL.jpg"
+    },
+    {
+        "name": "Veggie Wrap",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6677/eeb9f252_SMALL.jpg"
+    },
+    {
+        "name": "Butter Chicken",
+        "description": "Boneless chicken cooked in butter with spices, cream and almonds.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6678/f755ee31_SMALL.jpg"
+    },
+    {
+        "name": "Chicken Biryani",
+        "description": "Boneless chicken, aromatic rice pilaf, served with curry sauce.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6679/0459bf29_SMALL.jpg"
+    },
+    {
+        "name": "Chicken Curry",
+        "description": "Boneless chicken, onions, garlic, ginger, tomatoes and curry spices.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6680/8e473d55_SMALL.jpg"
+    },
+    {
+        "name": "Chicken Kadhai",
+        "description": "Bone-in chicken, green peppers, tomatoes, sauteed onions.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6681/21510459_SMALL.jpg"
+    },
+    {
+        "name": "Chicken Korma",
+        "description": "Chicken cooked in creamy sauce with ground cashew nuts and mild spices.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6682/e526f410_SMALL.jpg"
+    },
+    {
+        "name": "Chicken Saag",
+        "description": "Chicken cooked with spinach in seasoned herbs & spices.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6683/6284559b_SMALL.jpg"
+    },
+    {
+        "name": "Chicken Tikka Masala",
+        "description": "Chicken cooked with fenugreek dust, tomatoes, garam masala, ginger, garlic.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6684/803a9fd3_SMALL.jpg"
+    },
+    {
+        "name": "Chicken Vindaloo",
+        "description": "Chicken cooked with pieces of potatoes and special spicy sauce.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6685/1a20203e_SMALL.jpg"
+    },
+    {
+        "name": "Chicken Wrap",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6686/f696f8d0_SMALL.jpg"
+    },
+    {
+        "name": "Egg Curry",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6687/fb09aeb8_SMALL.jpg"
+    },
+    {
+        "name": "Egg Masala",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6688/1ef817c6_SMALL.jpg"
+    },
+    {
+        "name": "Lamb Saag",
+        "description": "Lamb cooked with spinach in seasoned herbs & spices.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6689/64eb5ac1_SMALL.jpg"
+    },
+    {
+        "name": "Lamb Biryani",
+        "description": "Lamb, aromatic rice pilaf, served with a side of curry sauce.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6690/f96d87e3_SMALL.jpg"
+    },
+    {
+        "name": "Lamb Curry",
+        "description": "Boneless lamb with tomato-onion base sauce, mixed with ginger, garlic and spices.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6691/75b3d04a_SMALL.jpg"
+    },
+    {
+        "name": "Lamb Korma",
+        "description": "Lamb cooked in creamy sauce with ground cashew nuts and mild spices.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6692/e526f410_SMALL.jpg"
+    },
+    {
+        "name": "Lamb Tikka Masala",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6693/f73ff483_SMALL.jpg"
+    },
+    {
+        "name": "Lamb Vindaloo",
+        "description": "Lamb cooked with pieces of potatoes and special spicy sauce.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6694/d45e2e45_SMALL.jpg"
+    },
+    {
+        "name": "Lamb Wrap",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6695/9a047c1d_SMALL.jpg"
+    },
+    {
+        "name": "Shrimp Vindaloo",
+        "description": "Shrimp cooked with pieces of potatoes and special spicy sauce.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6696/485e630b_SMALL.jpg"
+    },
+    {
+        "name": "Shrimp Biryani",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6697/40a83276_SMALL.jpg"
+    },
+    {
+        "name": "Shrimp Curry",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6698/b899c678_SMALL.jpg"
+    },
+    {
+        "name": "Tandoori Chicken",
+        "description": "Bone-in thigh meat, chicken pieces marinated and cooked in a tandoor oven.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6699/2e65e627_SMALL.jpg"
+    },
+    {
+        "name": "Chicken Kabab",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6700/737f9d05_SMALL.jpg"
+    },
+    {
+        "name": "Chutney",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6701/43cca979_SMALL.jpg"
+    },
+    {
+        "name": "Raita",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6702/d29b3bff_SMALL.jpg"
+    },
+    {
+        "name": "Chai",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6703/519d0c5a_SMALL.jpg"
+    },
+    {
+        "name": "Soft Drink",
+        "description": "Choice of Coke, Diet Coke or Sprite.",
+        "image_url": "No image"
+    },
+    {
+        "name": "Mango Lassi",
+        "description": "",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6705/ec6127be_SMALL.jpg"
+    },
+    {
+        "name": "Bottled Water",
+        "description": "",
+        "image_url": "No image"
+    },
+    {
+        "name": "Galub Jamun",
+        "description": "Spongy milky balls soaked in rose-scented syrup.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6707/b6efb93f_SMALL.jpg"
+    },
+    {
+        "name": "Kheer",
+        "description": "Indian style rice pudding with nuts.",
+        "image_url": "https://joyous-production.s3.us-west-2.amazonaws.com/images/restaurant/1863/catalog_item/6708/c0bec76d_SMALL.jpg"
+    }
+]
