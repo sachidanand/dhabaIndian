@@ -1,0 +1,916 @@
+/* ========================================
+   RESPONSIVE DESIGN - MOBILE FIRST APPROACH
+   ======================================== */
+
+/* Mobile Menu Improvements */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--accent-primary, #f77d48);
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+/* Tablet and Below (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    /* Navigation */
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        z-index: 1000;
+        padding: 20px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-menu li {
+        margin: 15px 0;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
+    /* Logo */
+    .logo {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .logo-image {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo-text h1 {
+        font-size: 18px;
+    }
+
+    .logo-text p {
+        font-size: 11px;
+    }
+
+    /* Hero Section */
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 85px 20px 52px;
+        min-height: auto;
+        gap: 2.25rem;
+    }
+
+    .hero-visual {
+        height: clamp(300px, 48vh, 420px);
+        min-height: 300px;
+        border-radius: 20px;
+        box-shadow: 0 20px 44px rgba(15, 23, 42, 0.14);
+        max-width: 100%;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 0 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero-subheadline {
+        max-width: 600px;
+    }
+
+    .hero-buttons {
+        flex-direction: row;
+        gap: 12px;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-buttons .btn {
+        min-width: 200px;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    /* Location Tabs */
+    .tab-buttons {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .tab-btn {
+        flex: 1 1 45%;
+        min-width: 140px;
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+
+    .location-card {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .location-info,
+    .location-image {
+        max-width: 100%;
+    }
+
+    .location-image {
+        margin-top: 20px;
+    }
+
+    /* About Section - Tablet */
+    .about-section {
+        padding: 60px 0;
+    }
+
+    .about-content {
+        padding: 2.5rem;
+    }
+
+    .about-content > h2 {
+        font-size: 2.25rem;
+        margin-bottom: 1.75rem;
+    }
+
+    .about-image {
+        width: clamp(240px, 40%, 380px);
+        margin: 0 0 1.5rem 2rem;
+    }
+
+    .about-text p {
+        font-size: 1.05rem;
+        line-height: 1.75;
+    }
+
+    .about-text p:first-of-type::first-letter {
+        font-size: 3em;
+    }
+
+    .features {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 1.75rem;
+        margin-top: 2.5rem;
+        padding-top: 2rem;
+    }
+
+    .feature {
+        padding: 1.25rem;
+    }
+
+    .feature i {
+        font-size: 2.5rem;
+    }
+
+    .feature h4 {
+        font-size: 1.15rem;
+    }
+
+    /* Contact Section */
+    .contact-section {
+        padding: 60px 0;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        margin-top: 2rem;
+    }
+
+    .contact-info,
+    .contact-form {
+        max-width: 100%;
+        padding: 2rem;
+    }
+
+    .contact-info h3,
+    .contact-form h3 {
+        font-size: 1.6rem;
+    }
+
+    /* Footer */
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-section {
+        max-width: 100%;
+    }
+
+    /* Menu Page */
+    .menu-filter-bar {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 0.75rem;
+    }
+
+    .menu-filter-btn {
+        min-height: 96px;
+    }
+
+    .menu-gallery {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1.5rem;
+    }
+
+    /* Location Info Box on Menu Page */
+    #selected-location-info {
+        padding: 15px !important;
+        margin: 15px auto !important;
+        max-width: 90%;
+    }
+
+    #selected-location-info h3 {
+        font-size: 18px !important;
+    }
+
+    #selected-location-info > div {
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+
+    #selected-location-info span {
+        font-size: 14px;
+    }
+}
+
+/* Mobile Only (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-subtitle {
+        font-size: 16px;
+    }
+
+    /* Hero */
+    .hero {
+        padding: 76px 16px 48px;
+    }
+
+    .hero-visual {
+        height: clamp(240px, 42vh, 360px);
+        min-height: 240px;
+        border-radius: 18px;
+    }
+
+    .hero-content h1 {
+        font-size: 28px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+    }
+
+    /* Location Cards */
+    .location-details {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .detail {
+        text-align: center;
+    }
+
+    /* About Section - Mobile */
+    .about-section {
+        padding: 52px 0;
+    }
+
+    .about-content {
+        padding: 2rem;
+    }
+
+    .about-content > h2 {
+        font-size: 1.95rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.75rem;
+    }
+
+    .about-image {
+        float: none;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto 1.5rem auto;
+        display: block;
+    }
+
+    .about-image img {
+        border-width: 6px;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+        line-height: 1.7;
+        text-align: left;
+        margin-bottom: 1.25rem;
+    }
+
+    /* Drop cap smaller on mobile */
+    .about-text p:first-of-type::first-letter {
+        font-size: 2.8em;
+        margin: 0.05em 0.1em 0 0;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin-top: 2rem;
+        padding-top: 1.75rem;
+    }
+
+    .feature {
+        padding: 1.5rem 1rem;
+    }
+
+    .feature i {
+        font-size: 2.25rem;
+    }
+
+    .feature h4 {
+        font-size: 1.1rem;
+    }
+
+    .feature p {
+        font-size: 0.9rem;
+    }
+
+    /* Tab Buttons - Stack Vertically on Small Mobile */
+    .tab-btn {
+        flex: 1 1 100%;
+        font-size: 15px;
+    }
+
+    /* Menu Grid - Single Column on Small Mobile */
+    .menu-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-filter-bar {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-filter-btn {
+        min-height: 88px;
+    }
+
+    /* Contact Section Tablet */
+    .contact-section {
+        padding: 56px 0;
+    }
+
+    .contact-content {
+        gap: 2rem;
+    }
+
+    .contact-info,
+    .contact-form {
+        padding: 1.75rem;
+    }
+
+    .contact-info h3,
+    .contact-form h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Contact Items */
+    .contact-item {
+        flex-direction: row;
+        text-align: left;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+        padding: 0.85rem;
+    }
+
+    .contact-item i {
+        width: 28px;
+        height: 28px;
+        font-size: 1.15rem;
+    }
+
+    .contact-item strong {
+        font-size: 0.95rem;
+    }
+
+    .contact-item p {
+        font-size: 0.9rem;
+    }
+
+    /* Social Links */
+    .social-links {
+        justify-content: flex-start;
+        gap: 0.85rem;
+        margin-top: 2rem;
+    }
+
+    .social-links a {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    /* Form */
+    .form-group input,
+    .form-group textarea {
+        padding: 12px 16px;
+        font-size: 0.95rem;
+    }
+}
+
+/* Large Mobile (481px - 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .menu-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-item {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .social-links {
+        justify-content: flex-start;
+    }
+}
+
+/* Tablet (769px - 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .menu-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tab-btn {
+        flex: 1 1 30%;
+    }
+
+    .location-card {
+        flex-direction: row;
+    }
+
+    .location-info,
+    .location-image {
+        max-width: 48%;
+    }
+
+    /* About Section - Tablet */
+    .about-content {
+        padding: 2.5rem;
+    }
+
+    .about-content > h2 {
+        font-size: 2.35rem;
+    }
+
+    .about-image {
+        width: clamp(260px, 43%, 420px);
+        margin: 0 0 1.75rem 2.25rem;
+    }
+
+    .about-text p {
+        font-size: 1.06rem;
+        text-align: justify;
+    }
+
+    .about-text p:first-of-type::first-letter {
+        font-size: 3.2em;
+    }
+
+    .features {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.75rem;
+    }
+
+    /* Contact Section - Tablet */
+    .contact-section {
+        padding: 70px 0;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+    }
+
+    .contact-info,
+    .contact-form {
+        padding: 2rem;
+    }
+
+    .contact-item {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .social-links {
+        justify-content: flex-start;
+    }
+}
+
+/* Desktop (1025px - 1440px) */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .menu-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .hero {
+        padding: 100px 5vw 60px;
+    }
+
+    .hero-visual {
+        max-width: 1200px;
+    }
+
+    .hero-content {
+        max-width: 900px;
+    }
+
+    /* About Section - Desktop */
+    .about-content {
+        padding: 2.75rem;
+    }
+
+    .about-content > h2 {
+        font-size: 2.6rem;
+    }
+
+    .about-image {
+        width: clamp(280px, 44%, 440px);
+        margin: 0 0 1.75rem 2.5rem;
+    }
+
+    .about-text p {
+        font-size: 1.08rem;
+        text-align: justify;
+    }
+
+    .features {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    /* Contact Section - Desktop */
+    .contact-content {
+        gap: 3rem;
+    }
+
+    .contact-info,
+    .contact-form {
+        padding: 2.25rem;
+    }
+}
+
+/* Large Desktop (1441px and above) */
+@media screen and (min-width: 1441px) {
+    .container {
+        max-width: 1400px;
+    }
+
+    .menu-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .hero {
+        padding: 110px 8vw 70px;
+    }
+
+    .hero-visual {
+        max-width: 1400px;
+        height: clamp(400px, 55vh, 550px);
+    }
+
+    .hero-content {
+        max-width: 1000px;
+    }
+
+    .hero-content h1 {
+        font-size: 4.2rem;
+    }
+
+    .hero-subheadline {
+        font-size: 1.15rem;
+        max-width: 800px;
+    }
+
+    .section-title {
+        font-size: 42px;
+    }
+
+    /* About Section - Large Desktop */
+    .about-content {
+        padding: 3.25rem;
+        max-width: 1300px;
+    }
+
+    .about-content > h2 {
+        font-size: 2.9rem;
+    }
+
+    .about-image {
+        width: clamp(300px, 45%, 480px);
+        margin: 0 0 2rem 3rem;
+    }
+
+    .about-text p {
+        font-size: 1.12rem;
+        text-align: justify;
+    }
+
+    .features {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+        padding-top: 3rem;
+    }
+
+    .feature {
+        padding: 1.75rem;
+    }
+
+    .feature i {
+        font-size: 3rem;
+    }
+
+    .feature h4 {
+        font-size: 1.3rem;
+    }
+
+    .feature p {
+        font-size: 1rem;
+    }
+
+    /* Contact Section - Large Desktop */
+    .contact-content {
+        gap: 4rem;
+        max-width: 1300px;
+    }
+
+    .contact-info,
+    .contact-form {
+        padding: 2.75rem;
+    }
+
+    .contact-info h3,
+    .contact-form h3 {
+        font-size: 1.9rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .header,
+    .footer,
+    .hamburger,
+    .hero-buttons,
+    .booking-btn {
+        display: none;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+}
+
+/* Accessibility - Reduce Motion */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Touch Device Optimizations */
+@media (hover: none) and (pointer: coarse) {
+    .btn,
+    .tab-btn,
+    .category-btn,
+    .nav-link {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    .menu-item {
+        padding: 15px;
+    }
+
+    /* Better touch targets for contact */
+    .contact-item {
+        padding: 1.25rem;
+        min-height: 60px;
+    }
+
+    .social-links a {
+        width: 48px;
+        height: 48px;
+        font-size: 1.2rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 16px 18px;
+        font-size: 16px; /* Prevents zoom on iOS */
+    }
+}
+
+/* Extra Small Mobile (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    /* About Section - Extra Small Mobile */
+    .about-section {
+        padding: 44px 0;
+    }
+
+    .about-content {
+        padding: 1.5rem;
+    }
+
+    .about-content > h2 {
+        font-size: 1.75rem;
+        margin-bottom: 1.25rem;
+        padding-bottom: 0.65rem;
+    }
+
+    .about-image {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 1.25rem 0;
+        display: block;
+    }
+
+    .about-image img {
+        border-width: 4px;
+        border-radius: 14px;
+    }
+
+    .about-text p {
+        font-size: 0.95rem;
+        line-height: 1.65;
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
+    .about-text p:first-of-type::first-letter {
+        font-size: 2.5em;
+        margin: 0.05em 0.08em 0 0;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+        margin-top: 1.75rem;
+        padding-top: 1.5rem;
+    }
+
+    .feature {
+        padding: 1.25rem 0.85rem;
+    }
+
+    .feature i {
+        font-size: 2rem;
+        margin-bottom: 0.85rem;
+    }
+
+    .feature h4 {
+        font-size: 1.05rem;
+    }
+
+    .feature p {
+        font-size: 0.85rem;
+    }
+
+    /* Contact Section */
+    .contact-section {
+        padding: 48px 0;
+    }
+
+    .contact-content {
+        gap: 1.75rem;
+        margin-top: 1.5rem;
+    }
+
+    .contact-info,
+    .contact-form {
+        padding: 1.5rem;
+        border-radius: 16px;
+    }
+
+    .contact-info h3,
+    .contact-form h3 {
+        font-size: 1.35rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .contact-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0.75rem;
+        margin-bottom: 1.25rem;
+        padding: 1rem;
+    }
+
+    .contact-item i {
+        width: 36px;
+        height: 36px;
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .contact-item strong {
+        font-size: 0.9rem;
+    }
+
+    .contact-item p {
+        font-size: 0.85rem;
+    }
+
+    .social-links {
+        justify-content: center;
+        gap: 0.75rem;
+        margin-top: 1.75rem;
+        padding-top: 1.25rem;
+    }
+
+    .social-links a {
+        width: 42px;
+        height: 42px;
+        font-size: 1.05rem;
+    }
+
+    .form-group {
+        margin-bottom: 1.25rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 13px 16px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    .form-group textarea {
+        min-height: 120px;
+    }
+
+    .contact-form .btn {
+        padding: 14px;
+        font-size: 1rem;
+    }
+}
