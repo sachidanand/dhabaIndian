@@ -8,16 +8,79 @@ include 'includes/header.php';
     <section id="home" class="hero">
         <div class="hero-visual" id="heroSlider">
             <div class="hero-slide is-active" data-index="0">
-                <img src="assets/images/hero.jpeg" alt="Signature Indian dishes presented elegantly" />
+                <img src="assets/images/FrontPage/IMG_4290.HEIC" alt="Dhaba Indian Kitchen" />
             </div>
             <div class="hero-slide" data-index="1">
-                <img src="assets/images/Food Truck.jpeg" alt="Dhaba Indian Kitchen food truck serving guests" />
+                <img src="assets/images/FrontPage/IMG_4293.HEIC" alt="Dhaba Indian Kitchen" />
             </div>
             <div class="hero-slide" data-index="2">
-                <img src="assets/images/Truck-2.jpeg" alt="Modern food truck ambiance in Portland" />
+                <img src="assets/images/FrontPage/IMG_4294.HEIC" alt="Dhaba Indian Kitchen" />
             </div>
             <div class="hero-slide" data-index="3">
-                <img src="assets/images/poster.jpeg" alt="Colorful spread of Indian curries" />
+                <img src="assets/images/FrontPage/IMG_4295.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="4">
+                <img src="assets/images/FrontPage/IMG_4296.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="5">
+                <img src="assets/images/FrontPage/IMG_4297.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="6">
+                <img src="assets/images/FrontPage/IMG_4298.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="7">
+                <img src="assets/images/FrontPage/IMG_4301.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="8">
+                <img src="assets/images/FrontPage/IMG_4324.jpg" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="9">
+                <img src="assets/images/FrontPage/IMG_4325.jpg" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="10">
+                <img src="assets/images/FrontPage/IMG_4326.jpg" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="11">
+                <img src="assets/images/FrontPage/IMG_4328.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="12">
+                <img src="assets/images/FrontPage/IMG_4329.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="13">
+                <img src="assets/images/FrontPage/IMG_4330.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="14">
+                <img src="assets/images/FrontPage/IMG_4331.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="15">
+                <img src="assets/images/FrontPage/IMG_4332.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="16">
+                <img src="assets/images/FrontPage/IMG_4340.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="17">
+                <img src="assets/images/FrontPage/IMG_4343.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="18">
+                <img src="assets/images/FrontPage/IMG_4346.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="19">
+                <img src="assets/images/FrontPage/IMG_4347.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="20">
+                <img src="assets/images/FrontPage/IMG_4348.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="21">
+                <img src="assets/images/FrontPage/IMG_4349.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="22">
+                <img src="assets/images/FrontPage/IMG_4354.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="23">
+                <img src="assets/images/FrontPage/IMG_4355.HEIC" alt="Dhaba Indian Kitchen" />
+            </div>
+            <div class="hero-slide" data-index="24">
+                <img src="assets/images/FrontPage/IMG_4357.HEIC" alt="Dhaba Indian Kitchen" />
             </div>
             <div class="hero-overlay"></div>
             <div class="hero-dots" id="heroDots" aria-label="Hero image carousel navigation"></div>
@@ -60,6 +123,8 @@ include 'includes/header.php';
                     <button class="tab-btn" data-location="downtown">Downtown Portland</button>
                     <button class="tab-btn" data-location="hillsboro-century">Hillsboro Century</button>
                     <button class="tab-btn" data-location="hillsboro-main">Hillsboro Baseline</button>
+                    <button class="tab-btn" data-location="beaverton-xplore">Beaverton Xplore</button>
+                    <button class="tab-btn" data-location="singh-burger">Singh Is King</button>
                 </div>
 
                 <!-- Location Content -->
@@ -215,6 +280,82 @@ include 'includes/header.php';
                             <img src="assets/images/poster.jpeg" alt="Hillsboro Baseline Food Truck" />
                         </div>
                     </div>
+
+                    <div class="location-card" id="beaverton-xplore">
+                        <div class="location-info">
+                            <h3>Dhaba Indian Kitchen - Xplore</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> 16365 NW Twin Oaks Dr, Beaverton, OR 97006</p>
+                            <div class="location-details">
+                                <div class="detail">
+                                    <i class="fas fa-clock"></i>
+                                    <div>
+                                        <strong>Hours:</strong><br>
+                                        Mon-Fri: 11:00 AM - 8:30 PM<br>
+                                        Sat-Sun: 11:30 AM - 9:00 PM
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-phone"></i>
+                                    <div>
+                                        <strong>Phone:</strong><br>
+                                        503-267-0393
+                                    </div>
+                                </div>
+                            </div>
+                            <button
+                                type="button"
+                                class="btn btn-primary menu-btn"
+                                data-menu-toggle="true"
+                                data-menu-toggle-mode="toggle"
+                                data-menu-open-label="View Menu"
+                                data-menu-close-label="Hide Menu"
+                                data-location-name="Dhaba Indian Kitchen - Xplore"
+                                data-location-address="16365 NW Twin Oaks Dr, Beaverton, OR 97006"
+                                data-location-phone="503-267-0393"
+                            >View Menu</button>
+                        </div>
+                        <div class="location-image">
+                            <img src="assets/images/Truck-3.jpeg" alt="Beaverton Xplore Food Truck" />
+                        </div>
+                    </div>
+
+                    <div class="location-card" id="singh-burger">
+                        <div class="location-info">
+                            <h3>Singh Is King Smash Burger - Xplore</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> 16365 NW Twin Oaks Dr, Beaverton, OR 97006</p>
+                            <div class="location-details">
+                                <div class="detail">
+                                    <i class="fas fa-clock"></i>
+                                    <div>
+                                        <strong>Hours:</strong><br>
+                                        Mon-Fri: 11:00 AM - 8:30 PM<br>
+                                        Sat-Sun: 11:30 AM - 9:00 PM
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-phone"></i>
+                                    <div>
+                                        <strong>Phone:</strong><br>
+                                        503-267-0393
+                                    </div>
+                                </div>
+                            </div>
+                            <button
+                                type="button"
+                                class="btn btn-primary menu-btn"
+                                data-menu-toggle="true"
+                                data-menu-toggle-mode="toggle"
+                                data-menu-open-label="View Menu"
+                                data-menu-close-label="Hide Menu"
+                                data-location-name="Singh Is King Smash Burger - Xplore"
+                                data-location-address="16365 NW Twin Oaks Dr, Beaverton, OR 97006"
+                                data-location-phone="503-267-0393"
+                            >View Menu</button>
+                        </div>
+                        <div class="location-image">
+                            <img src="assets/images/poster2.jpeg" alt="Singh Is King Smash Burger" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -270,14 +411,14 @@ include 'includes/header.php';
                         <i class="fas fa-envelope"></i>
                         <div>
                             <strong>Email:</strong>
-                            <p>info@dhabaindianpdx.com</p>
+                            <p>sibalbir67@gmail.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
                         <div>
                             <strong>Main Office:</strong>
-                            <p>(503) 555-0100</p>
+                            <p>(918) 812-8387</p>
                         </div>
                     </div>
                     <div class="contact-item">
