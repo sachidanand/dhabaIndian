@@ -1,0 +1,16 @@
+# Video files
+*.MOV
+*.mov
+*.mp4
+*.MP4
+*.avi
+*.AVI
+*.mkv
+*.MKV
+*.wmv
+*.WMV
+*.flv
+*.FLV
+
+# macOS system files
+.DS_Store
